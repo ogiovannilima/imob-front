@@ -1,9 +1,10 @@
-import React from 'react';
-
-// import { Container } from './styles';
+import React from 'react'
+import Container from '@mui/material/Container'
 
 export const Home: React.FC = () => {
   return (
-      <h1>Home</h1>
+    <Container>
+      <div style={{ background: 'red', width: '100%', height: '150px' }}></div>
+    </Container>
   )
 }
