@@ -32,15 +32,21 @@ export const Hug = styled.div`
   }
 `
 
-export const MenuButton = styled.div`
+export const MenuButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
 
   border: 1px solid var(--gray-300);
   height: 50px;
   width: 50px;
   border-radius: 50px;
+
+  svg {
+    height: 20px;
+    width: 20px;
+  }
 `
 
 export const CircleBackground = styled.div`
