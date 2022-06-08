@@ -1,10 +1,10 @@
-import CssBaseline from '@mui/material/CssBaseline'
 import { AppRoutes } from './Routes'
+import { GlobalStyle } from '../src/globalStyle'
 
 export function App() {
   return (
     <>
-      <CssBaseline />
+      <GlobalStyle />
       <AppRoutes />
     </>
   )

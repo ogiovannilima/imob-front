@@ -1,10 +1,11 @@
 import React from 'react'
-import Container from '@mui/material/Container'
+import { Header } from '../../Components/Header'
+import * as S from './styles'
 
 export const Home: React.FC = () => {
   return (
-    <Container>
-      <div style={{ background: 'red', width: '100%', height: '150px' }}></div>
-    </Container>
+    <S.Container>
+      <Header />
+    </S.Container>
   )
 }
